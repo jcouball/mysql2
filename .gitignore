@@ -16,3 +16,5 @@ spec/my.cnf
 Gemfile.lock
 .ruby-version
 .rvmrc
+.idea
+*.iml

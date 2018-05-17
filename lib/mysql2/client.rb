@@ -19,6 +19,9 @@ module Mysql2
     end
 
     def initialize(opts = {})
+      puts "**************************************************"
+      puts "* NOTICE: You are running James Couball's Mysql2 *"
+      puts "**************************************************"
       raise Mysql2::Error, "Options parameter must be a Hash" unless opts.is_a? Hash
       opts = Mysql2::Util.key_hash_as_symbols(opts)
       @read_timeout = nil
